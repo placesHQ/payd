@@ -9,7 +9,7 @@ description = "A Python wrapper for PAYD payment integration"
 readme = "README.md"
 license = { file = "LICENSE" }
 authors = [
-  { name="placesHQ", email="hello@placeshq.com" }
+  { name="William Otieno", email="hello@placeshq.com" }
 ]
 requires-python = ">=3.8"
 dependencies = [
