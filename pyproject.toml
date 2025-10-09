@@ -1,26 +1,24 @@
 [build-system]
-requires = ["setuptools>=61.0", "wheel"]
+requires = ["setuptools>=54", "wheel", "requests"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "payd-wrapper"
+name = "paydwrapper"
 version = "0.1.0"
-description = "A Python wrapper for PAYD payment integration"
-readme = "README.md"
-license = { file = "LICENSE" }
 authors = [
-  { name="William Otieno", email="hello@placeshq.com" }
+  { name="placeshq.com", email="hello@placeshq.com" }
 ]
+description = "A python wrapper for Payd API payment integrations"
+readme = "README.md"
 requires-python = ">=3.8"
-dependencies = [
-    "requests>=2.28"
-]
+license = { file = "LICENSE" }
+keywords = ["payd", "payments", "api", "wrapper", "placeshq"]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
 
-[project.urls]
-Homepage = "https://github.com/placesHQ/payd"
-Repository = "https://github.com/placesHQ/payd"
+dependencies = [
+  "requests"
+]
