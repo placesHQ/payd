@@ -3,7 +3,7 @@ import logging
 
 import requests
 
-from payd.models import Transaction, User
+from paydwrapper.models import Transaction, User
 
 logger: logging.Logger = logging.getLogger(__name__)
 
