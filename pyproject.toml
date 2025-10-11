@@ -3,8 +3,8 @@ requires = ["setuptools>=54", "wheel", "requests"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "paydwrapper"
-version = "0.1.1"
+name = "payd"
+version = "0.1.0"
 authors = [
   { name="placeshq.com", email="hello@placeshq.com" }
 ]
